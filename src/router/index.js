@@ -2,11 +2,11 @@
  * @Author: Orlando
  * @Date: 2022-02-25 12:31:13
  * @LastEditors: Orlando
- * @LastEditTime: 2022-02-25 12:44:30
+ * @LastEditTime: 2022-02-25 14:50:32
  * @Description:
  */
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import VueRouter from '../myRouter/my-router';
 import home from '../components/home.vue';
 import hello from '../components/hello.vue';
 import homeChild1 from '../components/home-child1.vue';
@@ -48,5 +48,6 @@ const routes = [
 ];
 
 export default new VueRouter({
+  mode: 'hash', //设置模式
   routes, // 第二步
 });

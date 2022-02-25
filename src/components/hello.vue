@@ -8,9 +8,9 @@
 <template>
   <div style="background: orange">
     <div>hello的内容哦嘿嘿</div>
-    <router-link to="/hello/child1">hello儿子1</router-link>
+    <my-link to="/hello/child1">hello儿子1</my-link>
     <span style="margin: 0 10px">|</span>
-    <router-link to="/hello/child2">hello儿子2</router-link>
-    <router-view></router-view>
+    <my-link to="/hello/child2">hello儿子2</my-link>
+    <my-view></my-view>
   </div>
 </template>

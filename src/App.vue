@@ -7,10 +7,10 @@
 -->
 <template>
   <div id="app">
-    <router-link to="/home">home的link</router-link>
+    <my-link to="/home">home的link</my-link>
     <span style="margin: 0 10px">|</span>
-    <router-link to="/hello">hello的link</router-link>
-    <router-view>1</router-view>
+    <my-link to="/hello">hello的link</my-link>
+    <my-view>1</my-view>
   </div>
 </template>
 
@@ -32,7 +32,7 @@
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+#nav a.my-link-exact-active {
   color: #42b983;
 }
 </style>
